@@ -4,7 +4,7 @@ group = 'com.github.urban6'
 version = '2.0.1'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
     buildToolsVersion '28.0.3'
 
     defaultConfig {

@@ -382,6 +382,8 @@ public class Croller extends View {
 
             circlePaint.setStrokeWidth(progressSecondaryStrokeWidth);
             circlePaint.setStyle(Paint.Style.STROKE);
+            circlePaint.setStrokeCap(Paint.Cap.ROUND);
+
             circlePaint2.setStrokeWidth(progressPrimaryStrokeWidth);
             circlePaint2.setStyle(Paint.Style.STROKE);
             circlePaint2.setStrokeCap(Paint.Cap.ROUND);

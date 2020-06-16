@@ -50,5 +50,9 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
 }
 
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.sdsmdg.harjot' // 모듈명. 패키지명을 쓰면 된다.
+version = '1.0.1' // 배포할 버전
+
 //apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
 //apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
